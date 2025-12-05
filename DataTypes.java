@@ -3,7 +3,7 @@
 
 class DataTypeExamples 
 {
-    int myInt = 60;
+   int myInt = 60;
     double my2b = 57.88;
     char myChar = 'A';
     boolean trfl = false;
@@ -21,7 +21,7 @@ public static void main(String[] args)
         System.out.println("myCharacter: " + dt.myChar);
         System.out.println("myBoolean: " + dt.trfl);
 
-    
+        
 
     }
 }
