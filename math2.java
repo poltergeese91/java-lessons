@@ -4,6 +4,7 @@ class ScoreBoard
     int playerXP = 0;
     int playerLevel = 0;
     int playerHealth = 0;
+    static final String GAME_NAME = "chess";
     void gainXP(int amount)
     {
         playerXP += amount;
@@ -29,9 +30,9 @@ class ScoreBoard
         playerLevel--;
 
     }
-    static void name(String n)
+    static void name()
     {
-        System.out.println("The name of your game is: " + n);
+        System.out.println("The name of your game is: " + GAME_NAME);
     }
     public player(int playerXP, int playerLevel, int playerHealth)
     {
@@ -79,7 +80,7 @@ public class math2
     System.out.println("Player2 XP: " + player2.playerXP);
     System.out.println("Player2 level: " + player2.playerLevel);
 
-    player1.name("chess");
+    player1.name();
     System.out.println("player attributes: " + player1.playerXP + "XP, Level "+ player1.playerLevel +", and " + player1.playerHealth + " health");
     }
 
