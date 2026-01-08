@@ -51,16 +51,9 @@ public class Loops{
         //if both print foobar
         
         int v = 0;
-        for (v = 1; v <= 100; v++)
-        {
-            if (v % 3 == 0)
-            {
-                System.out.print("foo");
-            }
-            if (v % 5 == 0)
-            {
-                System.out.print("bar");
-            }
+        for (v = 1; v <= 100; v++) {
+            if (v % 3 == 0) System.out.print("foo");
+            if (v % 5 == 0) System.out.print("bar");
             System.out.println();
         }    
 
