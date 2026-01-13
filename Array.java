@@ -14,5 +14,14 @@ public class Array
             System.out.println(numbers[j]);
             
         }
+
+        int[] median = new int[]{13, 4, 12, 9, 9, 3};
+        int len = median.length;
+        if (len % 2 == 1){
+            System.out.println(median[(len/2)]);
+        }
+        else{
+            System.out.println(      ((median[len/2-1]) + (median[len/2]))/2.0        );
+        }
     }
 }
