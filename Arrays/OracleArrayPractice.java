@@ -1,3 +1,4 @@
+package Arrays;
 public class OracleArrayPractice {
     //7654
     //2312 \n 2102 \n 3104
